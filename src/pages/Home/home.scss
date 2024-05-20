@@ -1,0 +1,53 @@
+.wp_home_page{
+.avatar{
+    width: 16rem;
+    height: 16rem;
+    border-radius: .25rem;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.music_information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn_random_playlist{
+
+    pointer-events: auto;
+    opacity: 1;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.btn_detail{
+    width: 40px;
+    height: 40px;
+    pointer-events: auto;
+    opacity: 1;
+    transition: border 1s ease !important;
+    border: 1px solid #00000000 !important;
+    background: none;
+    color: white;
+    border-radius: 50%;
+    &:hover{
+     
+        background-color: #ffffff1a;
+    }
+}
+.music_player{
+    gap: 35px;
+}
+    .playlist{
+        margin-top: 40px;
+    }
+}

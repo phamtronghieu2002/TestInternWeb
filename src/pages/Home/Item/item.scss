@@ -1,0 +1,54 @@
+.wp_music_item {
+  align-items: center;
+  justify-content: space-between;
+  height: 28px;
+  padding: 20px 0px;
+   cursor: pointer;
+   .btn_action{
+    display: none;
+  }
+  &:hover{
+    .btn_action{
+        display: block !important;
+      }
+  }
+  .header {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    .avatar {
+      height: 1.75rem;
+      width: 1.75rem;
+      position: relative;
+    }
+
+    .btn_play {
+      position: absolute;
+      top: 9px;
+      left: 12px;
+      color: white;
+    }
+
+    .name_song {
+        font-weight: 600;
+      }
+  }
+
+  .body {
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    .actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        
+      
+      }
+     
+  }
+  
+ 
+}
